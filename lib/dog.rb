@@ -9,16 +9,18 @@ class Dog
     # @breed = breed
   end
 
+  # define getter method for name
+  def name # Reader
+    @name #returns name
+    # "#{@name}".strip
+  end
+
   # define setter method for name
   def name=(new_dog_name) # Writer
     @name = new_dog_name # Hoisting /casting local variable to an instance variable
   end
 
-  # define getter method for name
-  def name # Reader
-    @name
-    # "#{@name}".strip
-  end
+
 end
 
 # fido = Dog.new("Fido")
