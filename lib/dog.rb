@@ -16,10 +16,11 @@ fido.name = "Fido"
 puts fido.name
 
 
-# class Dog
+class Dog
 #
-#   def initialize(name, breed) # Hook
-#     @name = name
+def initialize(name) # Hook
+  @name = name
+end
 #     @breed = breed
 #
 #
