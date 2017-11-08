@@ -16,7 +16,7 @@ class Dog
 
   # define getter method for name
   def name # Reader
-    @name #returns name
+    "#{@nam}" #returns name
     # "#{@name}".strip
   end
 
