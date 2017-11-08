@@ -1,9 +1,9 @@
 
 class Dog
 
-  def initialize(name) # Hook
+  def initialize(name, breed) # Hook
     @name = name
-    # @breed = breed
+    @breed = breed
 
 
     # @breed = breed
