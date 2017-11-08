@@ -10,8 +10,8 @@ class Dog
   end
 
   # define setter method for name
-  def name=(fido) # Writer
-    @name = fido # Hoisting /casting local variable to an instance variable
+  def name=(new_dog_name) # Writer
+    @name = new_dog_name # Hoisting /casting local variable to an instance variable
   end
 
   # define getter method for name
