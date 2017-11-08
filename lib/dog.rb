@@ -10,26 +10,33 @@ class Dog
   end
 end
 
+fido = Dog.new
+fido.name = "Fido"
 
-  def initialize(name, breed) # Hook
-    @name = name
-    @breed = breed
+puts fido.name
 
 
-    # @breed = breed
-  end
-
-  # define setter method for name
-  def name=(new_dog_name) # Writer
-    @name = new_dog_name # Hoisting /casting local variable to an instance variable
-  end
-
-  # define getter method for name
-  def name # Reader
-    "#{@name}" #returns name
-    # "#{@name}".strip
-  end
-end
+# class Dog
+#
+#   def initialize(name, breed) # Hook
+#     @name = name
+#     @breed = breed
+#
+#
+#     # @breed = breed
+#   end
+#
+#   # define setter method for name
+#   def name=(new_dog_name) # Writer
+#     @name = new_dog_name # Hoisting /casting local variable to an instance variable
+#   end
+#
+#   # define getter method for name
+#   def name # Reader
+#     "#{@name}" #returns name
+#     # "#{@name}".strip
+#   end
+# end
 
 # fido = Dog.new("Fido")
 # fido.name
