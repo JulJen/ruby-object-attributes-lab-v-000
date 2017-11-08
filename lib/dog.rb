@@ -19,9 +19,6 @@ class Dog
     "#{@nam}" #returns name
     # "#{@name}".strip
   end
-
-
-
 end
 
 # fido = Dog.new("Fido")
